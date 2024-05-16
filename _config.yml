@@ -1,0 +1,22 @@
+collections:
+  navigation:
+    output: true
+  people:
+    output: true
+  jobs:
+    output: true
+  news:
+    output: true
+  use_cases:
+    output: true
+  quotes:
+    output: true
+baseurl: ""
+
+exclude:
+  - node_modules
+  - .git
+  - /netfabric_site.zip
+  - /README.md
+
+google_analytics_tag_id: G-61H18LPX39

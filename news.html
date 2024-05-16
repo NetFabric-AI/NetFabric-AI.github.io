@@ -1,0 +1,20 @@
+---
+layout: default
+title: News
+---
+
+{% for post in site.posts %}
+  <div class="card mb-3">
+    <div class="card-body">
+      <h2 class="card-title">{{ post.title }}</h2>
+      <div class="card-text">
+        {{ post.content | markdownify }}
+      </div>
+      <div class="card-text">
+        <small class="text-muted">
+          {{ post.date | date: "%B %d, %Y" }}
+        </small>
+      </div>
+    </div>
+  </div>
+{% endfor %}

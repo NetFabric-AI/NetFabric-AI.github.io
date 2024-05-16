@@ -1,0 +1,38 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-4">
+  <div class="container">
+    <a class="navbar-brand" href="{{relative_base}}">
+      <img src="{{relative_base}}assets/images/icons/netfabric-dark-mode.svg" alt="NetFabric Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        {% for item in site.data.navigation %}
+          {% if item.subtitles %}
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown{{ forloop.index }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                {{ item.meta_title }}
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown{{ forloop.index }}">
+                {% for subtitle in item.subtitles %}
+                  <li><a class="dropdown-item" href="{{relative_base}}{{ subtitle.url }}">{{ subtitle.title }}</a></li>
+                {% endfor %}
+              </ul>
+            </li>
+          {% else %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{relative_base}}{{ item.url }}">{{ item.meta_title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+        
+        <!-- Contact us button -->
+        <li class="nav-item">
+          <a class="btn btn-primary" href="{{relative_base}}contact" role="button">Keep me updated!</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>

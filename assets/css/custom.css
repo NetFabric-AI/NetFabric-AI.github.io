@@ -1,0 +1,52 @@
+/* NAVBAR DROPDOWN */
+
+/* Custom styles for navbar dropdown */
+.navbar-dark .navbar-nav .dropdown-menu {
+  background-color: #343a40; /* Set the background color to match the navbar */
+}
+
+/* Change dropdown text color */
+.navbar-dark .navbar-nav .dropdown-menu .dropdown-item {
+  color: #ffffff; /* Set text color to white */
+}
+
+/* Change dropdown text color on hover */
+.navbar-dark .navbar-nav .dropdown-menu .dropdown-item:hover {
+  color: #ffffff; /* Set text color to white on hover */
+  background-color: #292e32; /* Set background color darker on hover */
+}
+
+/* MAIL IN FOOTER */
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+/* ARROW LIST */
+
+.arrow-bullet {
+  list-style: none;
+  padding-left: 0;
+}
+.arrow-bullet li {
+  position: relative;
+  padding-left: 30px; /* Add some padding for the larger arrow */
+}
+.arrow-bullet li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px; /* Adjust size as needed */
+  height: 20px; /* Adjust size as needed */
+  background-image: url('../images/icons/arrow.svg'); /* Relative path to your SVG file */
+  background-size: contain;
+  background-repeat: no-repeat; /* Prevent repeating of the arrow image */
+}
+
+/* Override color */
+.arrow-bullet.blue-arrow li:before {
+  filter: invert(38%) sepia(59%) saturate(741%) hue-rotate(212deg) brightness(93%) contrast(92%);
+}
