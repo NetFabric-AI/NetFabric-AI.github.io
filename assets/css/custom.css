@@ -92,12 +92,15 @@ body {
 /* SEPARATOR */
 /*************/
 
-.separator {
+.dots-separator {
   width: 50%;
-  margin: 0rem auto;
-  height: 20px; /* height of the bullet points */
-  background-image: radial-gradient(circle, black 10%, transparent 0%);
-  background-size: 20px 30px; /* Size of the bullet points */
+  margin: 0 auto;
+  height: 20px; /* Height of the dots */
+  background-image: radial-gradient(black 5%, transparent 0%);
+  background-size: 20px 30px; /* Size of the dots */
+  /*background-position: center;*/
+  border: none; /* Remove default line */
+  opacity: 1;
 }
 
 /**********/
