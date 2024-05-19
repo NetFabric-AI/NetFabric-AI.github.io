@@ -50,18 +50,24 @@
   filter: invert(38%) sepia(59%) saturate(741%) hue-rotate(212deg) brightness(93%) contrast(92%);
 }
 
-/*****************/
-/* CUSTOM BUTTON */
-/*****************/
+/******************/
+/* CONTACT BUTTON */
+/******************/
 
-.custom-gradient-btn {
+.contact-action {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.contact-action .btn {
   background: linear-gradient(to right, #090446ff, #3366ffff);
   border: none;
   color: white;
   border-radius: 15px; /* Adjust the radius as needed for more or less rounding */
 }
 
-.custom-gradient-btn:hover {
+.contact-action .btn:hover {
   background: linear-gradient(to left, #090446ff, #3366ffff);
 }
 
@@ -94,7 +100,7 @@ body {
 
 .dots-separator {
   width: 50%;
-  margin: 0 auto;
+  margin: 3rem auto;
   height: 20px; /* Height of the dots */
   background-image: radial-gradient(black 5%, transparent 0%);
   background-size: 20px 30px; /* Size of the dots */

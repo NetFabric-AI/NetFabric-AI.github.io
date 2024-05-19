@@ -1,0 +1,25 @@
+product_features:
+  - icon: "fas fa-globe fa-3x"
+    description: "Connects ALL data sources and infers missing pieces to create a comprehensive view"
+  - icon: "fas fa-puzzle-piece fa-3x"
+    description: "Provides real-time answers and actionable insights to any network-related question"
+
+quotes:
+  - person: Senior network engineer managing a large university network
+    quote: We have invested person-years into these problems!
+  - person: CTO at a network monitoring company
+    quote: Connecting data together is the holy grail!
+  - person: Senior network engineer with over 10 years of hands-on experience
+    quote: Support for multiple vendors is key for us!
+
+use_cases:
+  - title: Faster issue resolution
+    description: Naturally guide operators towards the problem across data sources and layers, enabling real-time root cause analysis
+  - title: Actionable alerts & reports
+    description: Make alerts actionable by adding the missing context to correlate, aggregate and filter them before they reach your inbox
+  - title: What-if & resilience
+    description: Improve availability and proactively prevent incidents by leveraging our models to evaluate what-if scenarios
+  - title: Meaningful AIOps
+    description: Unlock LLMs and interactions in natural language by offloading the hard reasoning logic to our mathematical models
+  - title: Others
+    description: Network security, application & multi-cloud monitoring, planning, cost management, self-healing networks, auto-documentation, ...

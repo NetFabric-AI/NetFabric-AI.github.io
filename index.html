@@ -20,8 +20,8 @@ title: Product
     </div>
   </div>
 
-  <div class="d-flex justify-content-center">
-    <a class="btn btn-primary custom-gradient-btn" href="{{relative_base}}contact" role="button">Keep me updated!</a>
+  <div class="contact-action">
+    <a class="btn btn-primary" href="{{relative_base}}contact" role="button">Keep me updated!</a>
   </div>
 
   <hr class="dots-separator">
@@ -33,16 +33,19 @@ title: Product
   </h2>
 
   <div class="row row-cols-1 row-cols-md-3 g-4">
-    {% for use_case in site.use_cases %}
+    {% for item in site.data.product.use_cases %}
     <div class="col">
-      <div class="card h-100">
-        <!-- Image -->
-        <img src="{{relative_base}}assets/images/network.jpg" class="card-img-top" alt="{{ use_case.title }}">
-        <!-- Card Body -->
-        <div class="card-body">
-          <h2 class="card-title">{{ use_case.title }}</h2>
-          <div class="card-text">
-            {{ use_case.content | markdownify }}
+      <div class="card mb-3">
+        <div class="row g-0 align-items-center">
+          <div class="col-md-4">
+            <img src="{{relative_base}}assets/images/network.jpg" class="img-fluid rounded-start"
+              alt="{{ use_case.title }}">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">{{ item.title }}</h5>
+              <p class="card-text">{{ item.description | markdownify }}</p>
+            </div>
           </div>
         </div>
       </div>
@@ -50,8 +53,24 @@ title: Product
     {% endfor %}
   </div>
 
-  <div class="d-flex justify-content-center">
-    <a class="btn btn-primary custom-gradient-btn" href="{{relative_base}}contact" role="button">Stay up-to-date</a>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    {% for item in site.data.product.use_cases %}
+    <div class="col">
+      <div class="card">
+        <img src="{{relative_base}}assets/images/network.jpg" class="card-img-top" alt="{{ item.title }}">
+        <div class="card-body">
+          <h2 class="card-title">{{ item.title }}</h2>
+          <div class="card-text">
+            {{ item.description | markdownify }}
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="contact-action">
+    <a class="btn btn-primary" href="{{relative_base}}contact" role="button">Stay up-to-date</a>
   </div>
 
   <hr class="dots-separator">
@@ -63,30 +82,26 @@ title: Product
   </h2>
 
   <div class="row row-cols-1 row-cols-md-2">
-    <div class="col">
-      <div class="card h-100">
-        <div class="card-body d-flex align-items-center">
-          <div class="me-3">
-            <i class="fas fa-globe fa-3x"></i>
-          </div>
-          <div class="card-text">
-            Connects ALL data sources and infers missing pieces to create a comprehensive view
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card h-100">
-        <div class="card-body d-flex align-items-center">
-          <div class="me-3">
-            <i class="fas fa-puzzle-piece fa-3x"></i>
-          </div>
-          <div class="card-text">
-            Provides real-time answers and actionable insights to any network-related question
+    {% for item in site.data.product.product_features %}
+      <div class="col">
+        <div class="card h-100">
+          <div class="row g-0 align-items-center">
+            <div class="col-md-2">
+              <div class="text-center">
+                <i class="{{ item.icon }}"></i>
+              </div>
+            </div>
+            <div class="col-md-10">
+              <div class="card-body">
+                <div class="card-text">
+                  {{ item.description }}
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    {% endfor %}
   </div>
 
   <div>
@@ -97,8 +112,8 @@ title: Product
     </ul>
   </div>
 
-  <div class="d-flex justify-content-center">
-    <a class="btn btn-primary custom-gradient-btn" href="{{relative_base}}contact" role="button">Keep me updated!</a>
+  <div class="contact-action">
+    <a class="btn btn-primary" href="{{relative_base}}contact" role="button">Keep me updated!</a>
   </div>
 
   <hr class="dots-separator">
@@ -108,13 +123,13 @@ title: Product
   </h2>
 
   <div class="row row-cols-1 row-cols-md-3">
-    {% for quote in site.quotes %}
+    {% for item in site.data.product.quotes %}
     <div class="col">
       <div class="card h-100 d-flex flex-column">
         <div class="card-body">
           <blockquote class="blockquote mb-0">
-            <p>{{ quote.content | markdownify }}</p>
-            <footer class="blockquote-footer">{{ quote.person }}</footer>
+            <p>{{ item.quote | markdownify }}</p>
+            <footer class="blockquote-footer">{{ item.person }}</footer>
           </blockquote>
         </div>
       </div>
@@ -122,8 +137,8 @@ title: Product
     {% endfor %}
   </div>
 
-  <div class="d-flex justify-content-center">
-    <a class="btn btn-primary custom-gradient-btn" href="{{relative_base}}contact" role="button">Let's keep in
+  <div class="contact-action">
+    <a class="btn btn-primary" href="{{relative_base}}contact" role="button">Let's keep in
       touch</a>
   </div>
 </div>
