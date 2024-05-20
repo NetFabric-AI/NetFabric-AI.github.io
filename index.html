@@ -16,7 +16,7 @@ title: Product
       </p>
     </div>
     <div class="col-md-4">
-      <img src="{{relative_base}}assets/images/network.jpg" class="img-fluid" alt="Network Image">
+      <img src="{{relative_base}}assets/images/network.jpg" class="img-fluid rounded-circle" alt="Network Image">
     </div>
   </div>
 
@@ -32,13 +32,14 @@ title: Product
     modern networks, enabling:
   </h2>
 
-  <div class="row row-cols-1 row-cols-md-3 g-4">
+  <p>
+  <div class="row row-cols-1 row-cols-md-2 g-4">
     {% for item in site.data.product.use_cases %}
     <div class="col">
-      <div class="card mb-3">
+      <div class="card h-100 mb-3">
         <div class="row g-0 align-items-center">
           <div class="col-md-4">
-            <img src="{{relative_base}}assets/images/network.jpg" class="img-fluid rounded-start"
+            <img src="{{relative_base}}assets/images/{{item.image}}" class="img-fluid rounded-start"
               alt="{{ use_case.title }}">
           </div>
           <div class="col-md-8">
@@ -52,22 +53,26 @@ title: Product
     </div>
     {% endfor %}
   </div>
-
-  <div class="row row-cols-1 row-cols-md-3 g-4">
-    {% for item in site.data.product.use_cases %}
-    <div class="col">
-      <div class="card">
-        <img src="{{relative_base}}assets/images/network.jpg" class="card-img-top" alt="{{ item.title }}">
-        <div class="card-body">
-          <h2 class="card-title">{{ item.title }}</h2>
-          <div class="card-text">
-            {{ item.description | markdownify }}
+  <div class="row g-4 mt-2">
+    <div class="col-12">
+      <div class="card h-100 mb-3">
+        <div class="row g-0 align-items-center">
+          <div class="col-md-2">
+            <img src="{{relative_base}}assets/images/infinity.jpg" class="img-fluid rounded-start"
+              alt="{{ use_case.title }}">
+          </div>
+          <div class="col-md-10">
+            <div class="card-body">
+              <h5 class="card-title">Others</h5>
+              <p class="card-text">Network security, application & multi-cloud monitoring, planning, cost management,
+                self-healing networks, auto-documentation, ...</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    {% endfor %}
   </div>
+  </p>
 
   <div class="contact-action">
     <a class="btn btn-primary" href="{{relative_base}}contact" role="button">Stay up-to-date</a>
@@ -81,29 +86,32 @@ title: Product
     provide the context you need to truly understand your network
   </h2>
 
+  <p>
   <div class="row row-cols-1 row-cols-md-2">
     {% for item in site.data.product.product_features %}
-      <div class="col">
-        <div class="card h-100">
-          <div class="row g-0 align-items-center">
-            <div class="col-md-2">
-              <div class="text-center">
-                <i class="{{ item.icon }}"></i>
-              </div>
+    <div class="col">
+      <div class="card h-100">
+        <div class="row g-0 align-items-center">
+          <div class="col-md-2">
+            <div class="text-center">
+              <i class="{{ item.icon }}"></i>
             </div>
-            <div class="col-md-10">
-              <div class="card-body">
-                <div class="card-text">
-                  {{ item.description }}
-                </div>
+          </div>
+          <div class="col-md-10">
+            <div class="card-body">
+              <div class="card-text">
+                {{ item.description }}
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
     {% endfor %}
   </div>
+  </p>
 
+  <p>
   <div>
     <ul class="arrow-bullet blue-arrow">
       <li>Improve uptime & reliability of your network</li>
@@ -111,6 +119,7 @@ title: Product
       <li>Free up time to be able to focus on your priorities</li>
     </ul>
   </div>
+  </p>
 
   <div class="contact-action">
     <a class="btn btn-primary" href="{{relative_base}}contact" role="button">Keep me updated!</a>
@@ -122,6 +131,7 @@ title: Product
     Our prototype has been validated with operators & engineers, <strong>receiving praisal across the board</strong>
   </h2>
 
+  <p>
   <div class="row row-cols-1 row-cols-md-3">
     {% for item in site.data.product.quotes %}
     <div class="col">
@@ -136,6 +146,7 @@ title: Product
     </div>
     {% endfor %}
   </div>
+  </p>
 
   <div class="contact-action">
     <a class="btn btn-primary" href="{{relative_base}}contact" role="button">Let's keep in
