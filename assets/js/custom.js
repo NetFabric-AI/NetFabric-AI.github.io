@@ -1,21 +1,3 @@
-////////////////
-// NAVIGATION //
-////////////////
-document.addEventListener("DOMContentLoaded", function() {
-    // Show dropdown on hover
-    document.querySelectorAll('.nav-item.dropdown').forEach(function(everyDropdown){
-      everyDropdown.addEventListener('mouseover', function(){
-        const dropdownMenu = this.querySelector('.dropdown-menu');
-        dropdownMenu.classList.add('show');
-      });
-  
-      everyDropdown.addEventListener('mouseleave', function(){
-        const dropdownMenu = this.querySelector('.dropdown-menu');
-        dropdownMenu.classList.remove('show');
-      });
-    });
-  });
-  
 //////////////////
 // PROTECT MAIL //
 //////////////////
@@ -54,7 +36,6 @@ function replaceMailTags() {
       mailElement.parentNode.replaceChild(aElement, mailElement);
   });
 }
-
 
 // Call the function when the document is fully loaded
 document.addEventListener('DOMContentLoaded', replaceMailTags);
