@@ -132,21 +132,22 @@ title: Product
   </h2>
 
   <p>
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for item in site.data.product.quotes %}
-    <div class="col">
-      <div class="card h-100 d-flex flex-column">
-        <div class="card-body">
-          <blockquote class="blockquote mb-0">
-            <p>{{ item.quote | markdownify }}</p>
-            <footer class="blockquote-footer">{{ item.person }}</footer>
-          </blockquote>
+    <div class="row row-cols-1 row-cols-md-3">
+      {% for item in site.data.product.quotes %}
+      <div class="col">
+        <div class="card h-100 d-flex flex-column shadow">
+          <div class="card-body">
+            <blockquote class="blockquote mb-0">
+              <p>{{ item.quote | markdownify }}</p>
+              <footer class="blockquote-footer">{{ item.person }}</footer>
+            </blockquote>
+          </div>
         </div>
       </div>
+      {% endfor %}
     </div>
-    {% endfor %}
-  </div>
   </p>
+  
 
   <div class="contact-action">
     <a class="btn btn-primary" href="{{relative_base}}contact" role="button">Let's keep in
