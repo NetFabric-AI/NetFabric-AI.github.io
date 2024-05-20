@@ -86,10 +86,10 @@ title: Product
   </h2>
 
   <p>
-  <div class="row row-cols-1 row-cols-md-2">
+  <div class="row row-cols-1 row-cols-md-2 g-4">
     {% for item in site.data.product.product_features %}
     <div class="col">
-      <div class="card h-100">
+      <div class="card h-100 mb-3">
         <div class="row g-0 align-items-center">
           <div class="col-md-4">
             <img src="{{relative_base}}assets/images/{{item.image}}" class="img-fluid rounded-start">
