@@ -63,19 +63,19 @@ You can always contact us through one of the following email addresses:
     </thead>
     <tbody>
         <tr>
-            <td><mail>customers</mail></td>
+            <td><mail to="customers" addBody="true"></mail></td>
             <td>Customer inquiries and support</td>
         </tr>
         <tr>
-            <td><mail>investors</mail></td>
+            <td><mail to="investors" addBody="true"></mail></td>
             <td>Investor relations and inquiries</td>
         </tr>
         <tr>
-            <td><mail>careers</mail></td>
+            <td><mail to="careers" addBody="true"></mail></td>
             <td>Job applications and career inquiries</td>
         </tr>
         <tr>
-            <td><mail>info</mail></td>
+            <td><mail to="info" addBody="true"></mail></td>
             <td>General information and inquiries</td>
         </tr>
     </tbody>

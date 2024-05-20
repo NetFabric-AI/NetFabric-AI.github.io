@@ -62,7 +62,7 @@ If you have agreed to receive marketing, you may always opt out at a later date.
 You have the right at any time to stop NetFabric from contacting you for marketing purposes.
 
 If you no longer wish to be contacted for marketing purposes, please inform us
-through <mail>info</mail>.
+through <mail to="info" addBody="true"></mail>.
 
 ## What are your data protection rights?
 
@@ -85,8 +85,8 @@ Every user is entitled to the following:
   NetFabric transfer the data that we have collected to another organization, or
   directly to you, under certain conditions.
   
-If you make a request, we have one month to respond to you. If you would like
-to exercise any of these rights, please contact us at our email: <mail>info</mail>.
+If you make a request, we have one month to respond to you. If you would like to
+exercise any of these rights, please contact us at our email: <mail to="info" addBody="true"></mail>.
 
 ## What are cookies?
 
@@ -129,12 +129,12 @@ page. This privacy policy was last updated on May 14, 2024.
 
 If you have any questions about NetFabric’s privacy policy, the data we hold on you, or you
 would like to exercise one of your data protection rights, please do not hesitate to contact us.
-Email us at: <mail>info</mail>.
+Email us at: <mail to="info" addBody="true"></mail>.
 
 You may also contact our Data Protection Officer using the following contact details:
 
 - NetFabric AG, Data Protection Officer, c/o Boris Paskalev, Am Stadtrand 51a,
-  8600 Dübendorf, <mail>info</mail>.
+  8600 Dübendorf, <mail to="info" addBody="true"></mail>.
 
 ## How to contact the appropriate authority
 

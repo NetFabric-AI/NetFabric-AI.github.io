@@ -16,7 +16,9 @@ title: Careers
     </ul>
 </p>
 
-We are always looking for talented people, so feel free to send us an email to <mail>careers</mail> or let us update you by registering [here](/contact).
+We are always looking for talented people, so feel free to send us an email to
+<mail to="careers" addBody="true"></mail> or let us update you by
+registering [here](/contact).
 
 ## About us
 

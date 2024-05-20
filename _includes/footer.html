@@ -1,13 +1,32 @@
 <footer class="footer mt-auto py-5 bg-dark text-white">
-    <div class="container text-center d-flex flex-column flex-md-row justify-content-between">
+    <div class="container text-center d-flex flex-column flex-md-row justify-content-between align-items-center">
         <div class="mb-3 mb-md-0">
             <div><i class="fas fa-building"></i> NetFabric AG | &copy; {{ "now" | date: "%Y" }}</div>
             <div><i class="fas fa-map-marker-alt"></i> c/o Boris Paskalev, Am Stadtrand 51a, 8600 Dübendorf</div>
         </div>
         <div class="mb-3 mb-md-0">
-            <div><i class="fas fa-envelope"></i> <mail>info</mail></div>
-            <div><i class="fab fa-linkedin"></i> <linkedin>netfabric</linkedin></div>
-            <a href="{{relative_base}}contact">Contact us</a>
+            <div>
+                <mail to="info" class="footer-icon-link">
+                    <div class="circle" data-bs-toggle="tooltip" title="Send us an Email">
+                        <i class="fa fa-envelope fa-2x"></i>
+                    </div>
+                </mail>
+                <a href="https://www.linkedin.com/company/103123591" class="footer-icon-link">
+                    <div class="circle" data-bs-toggle="tooltip" title="NetFabric LinkedIn">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </div>
+                </a>    
+                <a href="https://www.youtube.com/channel/your-channel" class="footer-icon-link">
+                    <div class="circle" data-bs-toggle="tooltip" title="NetFabric Youtube">
+                        <i class="fab fa-youtube fa-2x"></i>
+                    </div>
+                </a>
+                <a href="{{relative_base}}contact" class="footer-icon-link">
+                    <div class="circle" data-bs-toggle="tooltip" title="Subscribe to updates">
+                        <i class="fa fa-comment fa-2x"></i>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
 </footer>

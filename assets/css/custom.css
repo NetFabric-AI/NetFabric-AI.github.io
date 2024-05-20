@@ -129,3 +129,23 @@ h1 {
 h2 strong {
   color: #3366ff;
 }
+
+/*********/
+/* Media */
+/*********/
+
+.circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: #fff;
+  margin-right: 10px; /* Adjust spacing between circles */
+}
+
+.circle i {
+  font-size: 24px; /* Adjust icon size */
+}
