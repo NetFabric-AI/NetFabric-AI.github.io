@@ -44,7 +44,7 @@ title: Keep me updated!
     </div>
     <div class="mb-3 form-check">
         <input type="checkbox" class="form-check-input" id="privacyPolicy" name="privacyPolicy" required>
-        <label class="form-check-label" for="privacyPolicy">I accept the <a href="{{relative_base}}company/privacy">privacy policy</a>.</label>
+        <label class="form-check-label" for="privacyPolicy">I accept the <a href="{{ site.baseurl }}/company/privacy">privacy policy</a>.</label>
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>

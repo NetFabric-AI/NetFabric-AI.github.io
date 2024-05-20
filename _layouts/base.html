@@ -1,4 +1,3 @@
-{% include load_relative_base.html %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,11 +12,11 @@
     {% include google_analytics.html %}
 
     <!-- Bootstrap CSS -->
-    <link href="{{relative_base}}assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/assets/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="{{relative_base}}assets/images/icons/favicon.ico" media="(prefers-color-scheme: light)">
-    <link rel="icon" type="image/png" href="{{relative_base}}assets/images/icons/favicon-dark-mode.ico" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/images/icons/favicon.ico" media="(prefers-color-scheme: light)">
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/images/icons/favicon-dark-mode.ico" media="(prefers-color-scheme: dark)">
 
 </head>
 
@@ -29,14 +28,14 @@
   {% include footer.html %}  
 
   <!-- Bootstrap Bundle with Popper -->
-  <script src="{{relative_base}}assets/js/bootstrap.bundle.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/bootstrap.bundle.min.js"></script>
 
-  <link href="{{relative_base}}assets/css/fontawesome-all.min.css" rel="stylesheet">
+  <link href="{{ site.baseurl }}/assets/css/fontawesome-all.min.css" rel="stylesheet">
 
   <!-- Custom scripts -->
-  <link rel="stylesheet" href="{{relative_base}}assets/css/custom.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
 
-  <script src="{{relative_base}}assets/js/custom.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/custom.js"></script>
 
   {% include cookie_consent.html %}
 

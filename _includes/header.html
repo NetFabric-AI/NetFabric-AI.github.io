@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg py-4 sticky-top">
   <div class="container">
-    <a class="navbar-brand" href="{{relative_base}}">
-      <img src="{{relative_base}}assets/images/icons/netfabric.svg" alt="NetFabric Logo">
+    <a class="navbar-brand" href="{{ site.baseurl }}/">
+      <img src="{{ site.baseurl }}/assets/images/icons/netfabric.svg" alt="NetFabric Logo">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -16,20 +16,20 @@
               </a>
               <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown{{ forloop.index }}">
                 {% for subtitle in item.subtitles %}
-                  <li><a class="dropdown-item" href="{{relative_base}}{{ subtitle.url }}">{{ subtitle.title }}</a></li>
+                  <li><a class="dropdown-item" href="{{ site.baseurl }}/{{ subtitle.url }}">{{ subtitle.title }}</a></li>
                 {% endfor %}
               </ul>
             </li>
           {% else %}
             <li class="nav-item">
-              <a class="nav-link" href="{{relative_base}}{{ item.url }}">{{ item.meta_title }}</a>
+              <a class="nav-link" href="{{ site.baseurl }}/{{ item.url }}">{{ item.meta_title }}</a>
             </li>
           {% endif %}
         {% endfor %}
         
         <!-- Contact us button -->
         <li class="nav-item">
-          <a class="btn btn-primary custom-gradient-btn" href="{{relative_base}}contact" role="button">Keep me updated!</a>
+          <a class="btn btn-primary custom-gradient-btn" href="{{ site.baseurl }}/contact" role="button">Keep me updated!</a>
         </li>
         
       </ul>
