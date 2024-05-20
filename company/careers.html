@@ -1,0 +1,51 @@
+---
+layout: default
+title: Careers
+---
+
+{% include load_relative_base.html %}
+
+<style>
+    .table th,
+    .table td {
+        padding-left: 0;
+        text-align: left; /* Adjust text alignment as needed */
+    }
+</style>
+
+<p>
+    We are always looking for talented people, so feel free to send us an email to
+    <mail to="careers" addBody="true"></mail> or let us update you by
+    registering <a href="{{relative_base}}contact">here</a>.
+</p>
+
+<p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">
+                    Open Positions:
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for job in site.jobs %}
+            <tr>
+                <td><a href="{{ job.link }}">{{ job.title }}</a></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</p>
+
+
+<h2>About us</h2>
+
+<p>
+NetFabric is a startup building a platform for unlocking real-time reasoning & Artificial Intelligence for IT Operations (AIOps) across all aspects of data networks. Our technology pushes the frontiers of network understanding and reasoning across data sources.
+</p>
+
+<p>
+We are building up a strong team with great people including serial
+entrepreneurs, ETH PhD holders, and ETH professors.
+</p>

@@ -1,15 +1,15 @@
 use_cases:
   - title: Faster issue resolution
-    description: Naturally guide operators towards the problem across data sources and layers, enabling real-time root cause analysis
-    image: magnifying-glass.jpg
+    description: We naturally guide operators towards the problem across data sources and layers, enabling real-time root cause analysis.
+    image: bolt.jpg
   - title: Actionable alerts & reports
-    description: Make alerts actionable by adding the missing context to correlate, aggregate and filter them before they reach your inbox
+    description: We make alerts actionable by adding the missing context to correlate, aggregate and filter them before they reach your inbox.
     image: alert.jpg
-  - title: What-if & resilience
-    description: Improve availability and proactively prevent incidents by leveraging our models to evaluate what-if scenarios
-    image: brain.jpg
+  - title: What-if & resilience analysis
+    description: We improve availability and proactively prevent incidents by leveraging our models to evaluate what-if scenarios.
+    image: shield.jpg
   - title: Meaningful AIOps
-    description: Unlock LLMs and interactions in natural language by offloading the hard reasoning logic to our mathematical models
+    description: We unlock LLMs and interactions in natural language by offloading the hard reasoning logic to our mathematical models.
     image: AI.jpg
 
 product_features:
