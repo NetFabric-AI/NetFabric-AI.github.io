@@ -13,9 +13,9 @@ use_cases:
     image: AI.jpg
 
 product_features:
-  - icon: "fas fa-globe fa-3x"
+  - image: connected-globe.jpg
     description: "Connects ALL data sources and infers missing pieces to create a comprehensive view"
-  - icon: "fas fa-puzzle-piece fa-3x"
+  - image: lightbulb.jpg
     description: "Provides real-time answers and actionable insights to any network-related question"
 
 quotes:
