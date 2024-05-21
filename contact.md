@@ -11,13 +11,13 @@ title: Keep me updated!
     <div class="mb-3">
         <label for="userTypeDescription" class="form-label">What kind of updates are you interested in?</label>
         <div class="btn-group-toggle mt-2" data-toggle="buttons">
-            <input type="checkbox" class="btn-check" id="customer" autocomplete="off" value="true" name="customer" checked>
+            <input type="radio" class="btn-check" id="customer" autocomplete="off" value="customer" name="updateType" checked>
             <label class="btn btn-outline-secondary" for="customer"><i class="fas fa-user"></i> Customer</label>
 
-            <input type="checkbox" class="btn-check" id="employee" autocomplete="off" value="true" name="employee">
+            <input type="radio" class="btn-check" id="employee" autocomplete="off" value="employee" name="updateType">
             <label class="btn btn-outline-secondary" for="employee"><i class="fas fa-user-tie"></i> Employee</label>
 
-            <input type="checkbox" class="btn-check" id="investor" autocomplete="off" value="true" name="investor">
+            <input type="radio" class="btn-check" id="investor" autocomplete="off" value="investor" name="updateType">
             <label class="btn btn-outline-secondary" for="investor"><i class="fas fa-hand-holding-usd"></i> Investor</label>
         </div>
     </div>

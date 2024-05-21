@@ -12,6 +12,22 @@
   text-decoration: none;
 }
 
+/*************/
+/* ALIGNMENT */
+/*************/
+
+@media (min-width: 768px) {
+  .col-md-1-5{
+    flex: 0 0 auto;
+    width: 12.5%;
+  }
+
+  .col-md-10-5 {
+    flex: 0 0 auto;
+    width: 87.5%;
+  }
+}
+
 /**************/
 /* ARROW LIST */
 /**************/

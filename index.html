@@ -32,46 +32,44 @@ title: Product
   </h2>
 
   <p>
-  <div class="row row-cols-1 row-cols-md-2 g-4">
-    {% for item in site.data.product.use_cases %}
-    <div class="col">
-      <div class="card h-100 mb-3">
-        <div class="row g-0 align-items-center">
-          <div class="col-md-4">
-            <img src="{{ site.baseurl }}/assets/images/{{item.image}}" class="img-fluid rounded-start" alt="{{ use_case.title }}">
+    <div class="row row-cols-md-2 row-cols-1 g-4">
+      {% for item in site.data.product.use_cases %}
+      <div class="col">
+        <div class="card h-100 mb-3">
+          <div class="row g-0 align-items-center justify-content-center">
+            <div class="col-md-3 col-6">
+              <img src="{{ site.baseurl }}/assets/images/{{item.image}}" class="img-fluid rounded-start" alt="{{ item.title }}">
+            </div>
+            <div class="col-md-9 col-12">
+              <div class="card-body">
+                <h5 class="card-title underline-title">{{ item.title }}</h5>
+                <p class="card-text">{{ item.description | markdownify }}</p>
+              </div>
+            </div>
           </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title underline-title">{{ item.title }}</h5>
-              <p class="card-text">{{ item.description | markdownify }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>    
+    <div class="row row-cols-1 g-4 mt-2">
+      <div class="col">
+        <div class="card h-100 mb-3">
+          <div class="row g-0 align-items-center">
+            <div class="col-md-1-5 col-6">
+              <img src="{{ site.baseurl }}/assets/images/infinity.jpg" class="img-fluid rounded-start" alt="Others">
+            </div>
+            <div class="col-md-10-5 col-6">
+              <div class="card-body">
+                <h5 class="card-title underline-title">Others</h5>
+                <p class="card-text">Furthermore, our approach applies to network security, application & multi-cloud monitoring, planning, cost management, self-healing networks, auto-documentation, and more.</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    {% endfor %}
-  </div>
-  <div class="row g-4 mt-2">
-    <div class="col-12">
-      <div class="card h-100 mb-3">
-        <div class="row g-0 align-items-center">
-          <div class="col-md-2">
-            <img src="{{ site.baseurl }}/assets/images/infinity.jpg" class="img-fluid rounded-start"
-              alt="{{ use_case.title }}">
-          </div>
-          <div class="col-md-10">
-            <div class="card-body">
-              <h5 class="card-title underline-title">Others</h5>
-              <p class="card-text">Furthermore, our approach applies to network
-              security, application & multi-cloud monitoring, planning, cost
-              management, self-healing networks, auto-documentation, and more.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
   </p>
+    
 
   <div class="contact-action">
     <a class="btn btn-primary" href="{{ site.baseurl }}/contact" role="button">Stay up-to-date</a>
@@ -91,10 +89,10 @@ title: Product
     <div class="col">
       <div class="card h-100 mb-3">
         <div class="row g-0 align-items-center">
-          <div class="col-md-4">
+          <div class="col-md-3">
             <img src="{{ site.baseurl }}/assets/images/{{item.image}}" class="img-fluid rounded-start">
           </div>
-          <div class="col-md-8">
+          <div class="col-md-9">
             <div class="card-body">
               <div class="card-text">
                 {{ item.description }}
