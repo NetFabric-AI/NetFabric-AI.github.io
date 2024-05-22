@@ -23,30 +23,30 @@ title: Keep me updated!
     </div>
 
     <div class="mb-3">
-        <label for="firstName" class="form-label">First Name</label>
-        <input type="text" class="form-control" id="firstName" name="firstName">
+        <label for="firstName" class="form-label">First Name *</label>
+        <input type="text" class="form-control" id="firstName" name="firstName" required>
     </div>
     <div class="mb-3">
-        <label for="lastName" class="form-label">Last Name</label>
-        <input type="text" class="form-control" id="lastName" name="lastName">
+        <label for="lastName" class="form-label">Last Name *</label>
+        <input type="text" class="form-control" id="lastName" name="lastName" required>
     </div>
     <div class="mb-3">
-        <label for="company" class="form-label">Company (Optional)</label>
+        <label for="email" class="form-label">Email Address *</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+    </div>
+    <div class="mb-3">
+        <label for="company" class="form-label">Company (optional)</label>
         <input type="text" class="form-control" id="company" name="company">
     </div>
     <div class="mb-3">
-        <label for="email" class="form-label">Email Address</label>
-        <input type="email" class="form-control" id="email" name="email">
-    </div>
-    <div class="mb-3">
-        <label for="comments" class="form-label">Comments</label>
+        <label for="comments" class="form-label">Comments (optional)</label>
         <textarea class="form-control" id="comments" name="comments" rows="4"></textarea>
     </div>
     <div class="mb-3 form-check">
         <input type="checkbox" class="form-check-input" id="privacyPolicy" name="privacyPolicy" required>
         <label class="form-check-label" for="privacyPolicy">I accept the <a href="{{ site.baseurl }}/company/privacy">privacy policy</a>.</label>
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-primary btn-styled">Submit</button>
 </form>
 </p>
 

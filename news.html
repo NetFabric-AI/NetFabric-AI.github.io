@@ -3,18 +3,47 @@ layout: default
 title: News
 ---
 
-{% for post in site.posts %}
-  <div class="card mb-3">
-    <div class="card-body">
-      <h2 class="card-title">{{ post.title }}</h2>
-      <div class="card-text">
-        {{ post.content | markdownify }}
-      </div>
-      <div class="card-text">
-        <small class="text-muted">
-          {{ post.date | date: "%B %d, %Y" }}
-        </small>
+<style>
+  /* Override Bootstrap link color */
+  .card a {
+    color: inherit;
+    text-decoration: none; /* Removes default underline */
+  }
+
+  /* Remove underline on hover */
+  .card a:hover {
+    text-decoration: none;
+  }
+
+  .card-date {
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    background-color: transparent;
+    border-top: none;
+  }
+
+  /* Increase padding before the card body */
+  .card-body {
+    padding-top: 20px; /* Adjust as needed */
+  }
+</style>
+
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+  {% for post in site.posts %}
+    <div class="col">
+      <div class="card h-100">
+        <a href="{{ post.url }}" class="d-flex flex-column h-100">
+          <div class="image-container">
+            <img src="{{ post.image }}" class="img-fluid" alt="{{ post.title }}">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">{{ post.title }}</h3>
+            <p class="card-text">{{ post.short }}</p>
+          </div>
+          <div class="card-date">
+            <small class="text-muted">{{ post.date | date: "%B %d, %Y" }}</small>
+          </div>
+        </a>
       </div>
     </div>
-  </div>
-{% endfor %}
+  {% endfor %}
+</div>

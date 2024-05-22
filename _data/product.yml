@@ -1,3 +1,11 @@
+benefits:
+  - title: Reliability
+    description: Improve uptime & reliability of your network
+  - title: Efficiency
+    description: Reduce costs by boosting efficiency & streamlining operations
+  - title: Focus
+    description: Free up time to be able to focus on your priorities
+
 use_cases:
   - title: Faster issue resolution
     description: We naturally guide operators towards the problem across data sources and layers, enabling real-time root cause analysis.

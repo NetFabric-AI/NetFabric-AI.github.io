@@ -7,10 +7,10 @@ title: Product
   <div class="row align-items-center g-4">
     <div class="col-md-8">
       <h1 class="fw-bold">NetFabric</h1>
-      <h2>
+      <h2 style="font-weight: normal;">
         The <strong>Go-To Place</strong> to <strong>Answer Any Question</strong> About Your Network
       </h2>
-      <p>
+      <p class="mb-4">
         Our team of ETH Zurich PhDs and professors is currently developing a solution to provide you with all the context you need to fully understand your network. Follow us and/or partner with us along this journey.
       </p>
     </div>
@@ -20,7 +20,35 @@ title: Product
   </div>
 
   <div class="contact-action">
-    <a class="btn btn-primary" href="{{ site.baseurl }}/contact" role="button">Keep me updated!</a>
+    <a class="btn btn-primary btn-styled" href="{{ site.baseurl }}/contact" role="button">Keep me updated</a>
+  </div>
+
+  <hr class="dots-separator">
+
+  <p>
+    <h2 class="title-sentence">
+      Unlock <strong>seamless network insights</strong> with NetFabric and
+      <strong>step up your network game</strong>
+    </h2>
+
+    <p>
+      <div class="row row-cols-md-3 row-cols-3 g-4">
+        {% for item in site.data.product.benefits %}
+        <div class="col">
+          <div class="card h-100 mb-3">
+            <div class="card-body text-center">
+              <h3 class="card-title">{{ item.title }}</h5>
+              <p class="card-text">{{ item.description | markdownify }}</p>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </p>  
+  </p>
+
+  <div class="contact-action">
+    <a class="btn btn-primary btn-styled" href="{{ site.baseurl }}/contact" role="button">Register your interest</a>
   </div>
 
   <hr class="dots-separator">
@@ -42,7 +70,7 @@ title: Product
             </div>
             <div class="col-md-9 col-12">
               <div class="card-body">
-                <h5 class="card-title underline-title">{{ item.title }}</h5>
+                <h3 class="card-title">{{ item.title }}</h3>
                 <p class="card-text">{{ item.description | markdownify }}</p>
               </div>
             </div>
@@ -54,13 +82,13 @@ title: Product
     <div class="row row-cols-1 g-4 mt-2">
       <div class="col">
         <div class="card h-100 mb-3">
-          <div class="row g-0 align-items-center">
+          <div class="row g-0 align-items-center justify-content-center">
             <div class="col-md-1-5 col-6">
               <img src="{{ site.baseurl }}/assets/images/infinity.jpg" class="img-fluid rounded-start" alt="Others">
             </div>
-            <div class="col-md-10-5 col-6">
+            <div class="col-md-10-5 col-12">
               <div class="card-body">
-                <h5 class="card-title underline-title">Others</h5>
+                <h3 class="card-title">Others</h3>
                 <p class="card-text">Furthermore, our approach applies to network security, application & multi-cloud monitoring, planning, cost management, self-healing networks, auto-documentation, and more.</p>
               </div>
             </div>
@@ -72,7 +100,7 @@ title: Product
     
 
   <div class="contact-action">
-    <a class="btn btn-primary" href="{{ site.baseurl }}/contact" role="button">Stay up-to-date</a>
+    <a class="btn btn-primary btn-styled" href="{{ site.baseurl }}/contact" role="button">Stay up-to-date</a>
   </div>
 
   <hr class="dots-separator">
@@ -88,8 +116,8 @@ title: Product
     {% for item in site.data.product.product_features %}
     <div class="col">
       <div class="card h-100 mb-3">
-        <div class="row g-0 align-items-center">
-          <div class="col-md-3">
+        <div class="row g-0 align-items-center justify-content-center">
+          <div class="col-md-3 col-6">
             <img src="{{ site.baseurl }}/assets/images/{{item.image}}" class="img-fluid rounded-start">
           </div>
           <div class="col-md-9">
@@ -106,18 +134,8 @@ title: Product
   </div>
   </p>
 
-  <p>
-  <div>
-    <ul class="arrow-bullet blue-arrow">
-      <li>Improve uptime & reliability of your network</li>
-      <li>Reduce costs by boosting efficiency & streamlining operations</li>
-      <li>Free up time to be able to focus on your priorities</li>
-    </ul>
-  </div>
-  </p>
-
   <div class="contact-action">
-    <a class="btn btn-primary" href="{{ site.baseurl }}/contact" role="button">Keep me updated!</a>
+    <a class="btn btn-primary btn-styled" href="{{ site.baseurl }}/contact" role="button">Keep me updated</a>
   </div>
 
   <hr class="dots-separator">
@@ -145,7 +163,7 @@ title: Product
   
 
   <div class="contact-action">
-    <a class="btn btn-primary" href="{{ site.baseurl }}/contact" role="button">Let's keep in
+    <a class="btn btn-primary btn-styled" href="{{ site.baseurl }}/contact" role="button">Let's keep in
       touch</a>
   </div>
 </div>

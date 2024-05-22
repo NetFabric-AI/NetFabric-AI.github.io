@@ -28,55 +28,30 @@
   }
 }
 
-/**************/
-/* ARROW LIST */
-/**************/
+/***********/
+/* BUTTONS */
+/***********/
 
-.arrow-bullet {
-  list-style: none;
-  padding-left: 0;
-}
-.arrow-bullet li {
-  position: relative;
-  padding-left: 30px; /* Add some padding for the larger arrow */
-}
-.arrow-bullet li:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 20px; /* Adjust size as needed */
-  height: 20px; /* Adjust size as needed */
-  background-image: url('../images/icons/arrow.svg'); /* Relative path to your SVG file */
-  background-size: contain;
-  background-repeat: no-repeat; /* Prevent repeating of the arrow image */
+.btn-styled {
+  background: linear-gradient(to right, #090446ff, #3366ffff);
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.125rem;
 }
 
-/* Override color */
-.arrow-bullet.blue-arrow li:before {
-  filter: invert(38%) sepia(59%) saturate(741%) hue-rotate(212deg) brightness(93%) contrast(92%);
+.btn-styled:hover {
+  background: linear-gradient(to right, rgb(45, 36, 146), rgb(109, 145, 255));
 }
 
-/******************/
-/* CONTACT BUTTON */
-/******************/
+.btn {
+  border-radius: 20px !important;
+}
 
 .contact-action {
   display: flex;
   justify-content: center;
   margin-top: 3rem;
-}
-
-.contact-action .btn {
-  background: linear-gradient(to right, #090446ff, #3366ffff);
-  border: none;
-  color: white;
-  border-radius: 15px; /* Adjust the radius as needed for more or less rounding */
-}
-
-.contact-action .btn:hover {
-  background: linear-gradient(to left, #090446ff, #3366ffff);
 }
 
 /*********/
@@ -121,8 +96,20 @@ body {
 /* STYLES */
 /**********/
 
-.title-sentence {
+h1 {
   font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+
+h2 strong {
+  color: #3366ff;
+}
+
+.title-sentence {
   text-align: center;
 }
 
@@ -130,35 +117,22 @@ body {
   color: #3366ff;
 }
 
-h1 {
-  font-weight: bold;
-}
-
-h2 strong {
-  color: #3366ff;
-}
-
-.underline-title {
-  position: relative;
+h3 {
   display: inline-block;
-}
-
-.underline-title::after {
-  content: '';
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  width: 100%;
-  height: 3px;
-  background-color: #3366ff;
-  border-radius: 10px; /* roundness of the line */
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: #3366ff;
+  text-underline-offset: 5px;
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 1.25rem;
 }
 
 /*********/
 /* Media */
 /*********/
 
-.circle {
+.favicon-circle {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -170,6 +144,57 @@ h2 strong {
   margin-right: 10px; /* Adjust spacing between circles */
 }
 
-.circle i {
+.favicon-circle i {
   font-size: 24px; /* Adjust icon size */
+}
+
+/***********/
+/* COOKIES */
+/***********/
+
+#cookie-notice {
+  padding: 0.5rem 1rem;
+  display: none;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #222;
+  color: rgba(255,255,255,0.8);
+}
+#cookie-notice a {
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+#cookie-notice-accept {
+  background-color: #007bff; /* Bootstrap primary button color */
+  color: #fff;
+}
+#cookie-notice-essential {
+  background-color: transparent;
+  border: 1px solid #007bff; /* Bootstrap outline primary button border color */
+  color: #fff;
+}
+#cookie-notice-essential:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+#cookie-notice .btn-link {
+  color: rgba(255,255,255,0.8);
+}
+#cookie-notice .btn-link:hover {
+  color: #fff;
+}
+/* Responsive adjustments for smaller screens */
+@media (max-width: 767px) {
+  #cookie-notice span {
+      display: block;
+      padding-top: 3px;
+      margin-bottom: 1rem;
+  }
+  #cookie-notice a {
+      position: relative;
+      bottom: 4px;
+  }
 }
