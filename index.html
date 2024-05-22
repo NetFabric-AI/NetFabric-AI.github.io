@@ -44,7 +44,7 @@ title: Product
         </div>
         {% endfor %}
       </div>
-    </p>  
+    </p>
   </p>
 
   <div class="contact-action">
@@ -150,8 +150,8 @@ title: Product
       <div class="col">
         <div class="card h-100 d-flex flex-column shadow">
           <div class="card-body">
-            <blockquote class="blockquote mb-0">
-              <p>{{ item.quote | markdownify }}</p>
+            <blockquote class="blockquote">
+              <p><i class="fas fa-quote-left" style="color: #686868"></i> {{ item.quote }}</p>
               <footer class="blockquote-footer">{{ item.person }}</footer>
             </blockquote>
           </div>
@@ -160,7 +160,6 @@ title: Product
       {% endfor %}
     </div>
   </p>
-  
 
   <div class="contact-action">
     <a class="btn btn-primary btn-styled" href="{{ site.baseurl }}/contact" role="button">Let's keep in
