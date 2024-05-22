@@ -31,11 +31,6 @@ title: Careers
     {% endfor %}
 </div>
 
-
-
-
-
-
 <p>
     <table class="table">
         <thead>
@@ -46,6 +41,11 @@ title: Careers
             </tr>
         </thead>
         <tbody>
+            {% if site.jobs.size == 0 %}
+                <tr>
+                    <td>We are currently not announcing any open positions...</td>
+                </tr>
+            {% endif %}
             {% for job in site.jobs %}
             <tr>
                 <td><a href="{{ job.link }}">{{ job.title }}</a></td>
