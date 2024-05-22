@@ -12,10 +12,29 @@ title: Careers
 </style>
 
 <p>
-    We are always looking for talented people, so feel free to send us an email to
+    We are always looking for talented people, so feel free to send us an email
+    to
     <mail to="careers" addBody="true"></mail> or let us update you by
     registering <a href="{{ site.baseurl }}/contact">here</a>.
 </p>
+
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-flex align-items-stretch">
+    {% for item in site.data.careers.benefits %}
+    <div class="col">
+        <div class="card h-100">
+            <img src="{{ site.baseurl }}/assets/images/{{ item.image }}" class="card-img-top">
+            <div class="card-body">
+                <p class="card-text">{{ item.text }}</p>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+
+
+
+
 
 <p>
     <table class="table">
@@ -34,16 +53,4 @@ title: Careers
             {% endfor %}
         </tbody>
     </table>
-</p>
-
-
-<h2>About us</h2>
-
-<p>
-NetFabric is a startup building a platform for unlocking real-time reasoning & Artificial Intelligence for IT Operations (AIOps) across all aspects of data networks. Our technology pushes the frontiers of network understanding and reasoning across data sources.
-</p>
-
-<p>
-We are building up a strong team with great people including serial
-entrepreneurs, ETH PhD holders, and ETH professors.
 </p>

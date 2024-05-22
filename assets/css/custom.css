@@ -198,3 +198,16 @@ h3 {
       bottom: 4px;
   }
 }
+
+/**********/
+/* IMAGES */
+/**********/
+
+.grayscale-on-hover {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+}
+
+.grayscale-on-hover:hover {
+  filter: none;
+}

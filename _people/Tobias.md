@@ -2,7 +2,7 @@
 key: Tobias
 name: Dr. Tobias Bühler
 role: Founder and CTO
-image: assets/images/team/Tobias.png
+image: assets/images/team/Tobias-cropped.png
 link: https://www.linkedin.com/in/buehlert/
 ---
 
