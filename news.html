@@ -21,10 +21,23 @@ title: News
     border-top: none;
   }
 
-  /* Increase padding before the card body */
-  .card-body {
-    padding-top: 20px; /* Adjust as needed */
-  }
+  .square-container {
+      position: relative;
+      width: 100%;
+      padding-top: 100%; /* 1:1 Aspect Ratio */
+      overflow: hidden;
+    }
+
+    .square-container img {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: auto;
+      margin: auto;
+    }
 </style>
 
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
@@ -32,8 +45,8 @@ title: News
     <div class="col">
       <div class="card h-100">
         <a href="{{ post.url }}" class="d-flex flex-column h-100">
-          <div class="image-container">
-            <img src="{{ post.image }}" class="img-fluid" alt="{{ post.title }}">
+          <div class="square-container">
+            <img src="{{ post.image }}" class="card-img-top" alt="{{ post.title }}">
           </div>
           <div class="card-body">
             <h3 class="card-title">{{ post.title }}</h3>
