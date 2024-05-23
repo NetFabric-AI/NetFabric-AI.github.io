@@ -22,9 +22,9 @@ use_cases:
 
 product_features:
   - image: connected-globe.jpg
-    description: "NetFabric connects ALL data sources and infers missing pieces to create a comprehensive view"
+    description: NetFabric connects ALL data sources and infers missing pieces to create a comprehensive view of your network.
   - image: lightbulb.jpg
-    description: "NetFabric provides real-time answers and actionable insights to any network-related question"
+    description: NetFabric provides real-time answers and actionable insights to any network-related question.
 
 quotes:
   - person: Senior network engineer managing a large university network

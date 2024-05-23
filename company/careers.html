@@ -62,7 +62,8 @@ title: Careers
                 </div>
                 <div class="col-md-9 col-12">
                     <div class="card-body">
-                    <p class="card-text">{{ item.text | markdownify }}</p>
+                        <strong class="card-title">{{ item.short | markdownify }}</strong>
+                        <p class="card-text">{{ item.long | markdownify }}</p>
                     </div>
                 </div>
                 </div>
