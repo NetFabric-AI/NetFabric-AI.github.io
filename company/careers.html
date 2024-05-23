@@ -9,6 +9,19 @@ title: Careers
         padding-left: 0;
         text-align: left; /* Adjust text alignment as needed */
     }
+
+    .job-table a {
+        color: inherit; /* Use the default text color */
+        text-decoration: none; /* Remove underline from links */
+    }
+
+    .job-table a:hover {
+        text-decoration: underline; /* Underline links on hover */
+    }
+
+    .link-icon {
+        margin-left: 5px; /* Add some space between the text and the icon */
+    }
 </style>
 
 <p>
@@ -18,28 +31,9 @@ title: Careers
     registering <a href="{{ site.baseurl }}/contact">here</a>.
 </p>
 
-<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-flex align-items-stretch">
-    {% for item in site.data.careers.benefits %}
-    <div class="col">
-        <div class="card h-100">
-            <img src="{{ site.baseurl }}/assets/images/{{ item.image }}" class="card-img-top">
-            <div class="card-body">
-                <p class="card-text">{{ item.text }}</p>
-            </div>
-        </div>
-    </div>
-    {% endfor %}
-</div>
-
 <p>
-    <table class="table">
-        <thead>
-            <tr>
-                <th scope="col">
-                    Open Positions:
-                </th>
-            </tr>
-        </thead>
+    <h3>Open Positions</h3>
+    <table class="table job-table">
         <tbody>
             {% if site.jobs.size == 0 %}
                 <tr>
@@ -48,9 +42,32 @@ title: Careers
             {% endif %}
             {% for job in site.jobs %}
             <tr>
-                <td><a href="{{ job.link }}">{{ job.title }}</a></td>
+                <td><a href="{{ job.link }}">{{ job.title }} <i class="link-icon fas fa-external-link-alt"></i></a></td>
             </tr>
             {% endfor %}
         </tbody>
     </table>
+</p>
+
+<p>
+    <h3>What we offer</h3>
+
+    <div class="row row-cols-md-2 row-cols-1 g-4">
+        {% for item in site.data.careers.benefits %}
+        <div class="col">
+            <div class="card h-100 mb-3">
+                <div class="row g-0 align-items-center justify-content-center">
+                <div class="col-md-3 col-6">
+                    <img src="{{ site.baseurl }}/assets/images/{{ item.image }}" class="img-fluid rounded-start">
+                </div>
+                <div class="col-md-9 col-12">
+                    <div class="card-body">
+                    <p class="card-text">{{ item.text | markdownify }}</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
 </p>
