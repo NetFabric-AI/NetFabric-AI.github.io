@@ -22,36 +22,34 @@ title: Product
     </div>
   </div>
 
-  <div class="contact-action">
-    <a class="btn btn-primary btn-styled" href="{{ site.baseurl }}/contact" role="button">Stay up-to-date</a>
-  </div>
-
   <hr class="dots-separator">
 
-  <p>
-    <h2 class="title-sentence">
-      Unlock <strong>seamless network insights</strong> with NetFabric and
-      <strong>step up your network game</strong>
-    </h2>
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-8 mx-auto">
+      <h2 class="title-sentence">
+        Unlock <strong>seamless network insights</strong> and
+        <strong>step up your network game</strong>
+      </h2>
+    </div>
+  </div>
 
-    <p>
-      <div class="row row-cols-md-3 row-cols-1 g-4">
-        {% for item in site.data.product.benefits %}
-        <div class="col">
-          <div class="card h-100">
-            <div class="card-body text-center">
-              <h3 class="card-title">{{ item.title }}</h5>
-              <p class="card-text">{{ item.description | markdownify }}</p>
-            </div>
-          </div>
+  <p class="cards-group">
+  <div class="row row-cols-md-3 row-cols-1 g-4">
+    {% for item in site.data.product.benefits %}
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body text-center">
+          <h3 class="card-title">{{ item.title }}</h5>
+            <p class="card-text">{{ item.description | markdownify }}</p>
         </div>
-        {% endfor %}
       </div>
-    </p>
+    </div>
+    {% endfor %}
+  </div>
   </p>
 
   <div class="contact-action">
-    <a class="btn btn-primary btn-styled" href="{{ site.baseurl }}/contact" role="button">Register your interest</a>
+    <a class="btn btn-primary btn-styled" href="{{ site.baseurl }}/contact" role="button">Stay connected</a>
   </div>
 
   <hr class="dots-separator">
@@ -62,7 +60,7 @@ title: Product
     modern networks, enabling:
   </h2>
 
-  <p>
+  <p class="cards-group">
     <div class="row row-cols-md-2 row-cols-1 g-4">
       {% for item in site.data.product.use_cases %}
       <div class="col">
@@ -103,7 +101,7 @@ title: Product
     
 
   <div class="contact-action">
-    <a class="btn btn-primary btn-styled" href="{{ site.baseurl }}/contact" role="button">Stay informed</a>
+    <a class="btn btn-primary btn-styled" href="{{ site.baseurl }}/contact" role="button">Register your interest</a>
   </div>
 
   <hr class="dots-separator">
@@ -114,7 +112,7 @@ title: Product
     provide the context you need to truly understand your network
   </h2>
 
-  <p>
+  <p class="cards-group">
   <div class="row row-cols-1 row-cols-md-2 g-4">
     {% for item in site.data.product.product_features %}
     <div class="col">
@@ -137,18 +135,13 @@ title: Product
   </div>
   </p>
 
-  <div class="contact-action">
-    <a class="btn btn-primary btn-styled" href="{{ site.baseurl }}/contact" role="button">Let's keep in
-      touch</a>
-  </div>
-
   <hr class="dots-separator">
 
   <h2 class="title-sentence">
     Our prototype has been validated with operators & engineers, <strong>receiving praisal across the board</strong>
   </h2>
 
-  <p>
+  <p class="cards-group">
     <div class="row row-cols-1 row-cols-md-3 g-4">
       {% for item in site.data.product.quotes %}
       <div class="col">
@@ -164,8 +157,10 @@ title: Product
       {% endfor %}
     </div>
   </p>
-
+  
   <div class="contact-action">
-    <a class="btn btn-primary btn-styled" href="{{ site.baseurl }}/contact" role="button">Stay connected</a>
+    <a class="btn btn-primary btn-styled" href="{{ site.baseurl }}/contact" role="button">Let's keep in
+      touch</a>
   </div>
+
 </div>
