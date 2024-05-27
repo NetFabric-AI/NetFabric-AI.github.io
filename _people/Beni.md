@@ -1,7 +1,7 @@
 ---
 key: Beni
 name: Dr. Beni Bichsel
-role: Founder and CEO
+role: Co-Founder and CEO
 image: assets/images/team/Beni-cropped.jpg
 link: https://www.linkedin.com/in/benjamin-bichsel-866432147/
 ---

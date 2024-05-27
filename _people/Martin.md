@@ -1,7 +1,7 @@
 ---
 key: Martin
 name: Prof. Martin Vechev
-role: Founder
+role: Co-Founder
 image: assets/images/team/Martin-cropped.jpg
 link: https://www.linkedin.com/in/martinvechev/
 ---

@@ -1,7 +1,7 @@
 ---
 key: Boris
 name: Boris Paskalev
-role: Founder and Board President
+role: Co-Founder and Board President
 image: assets/images/team/Boris-cropped.jpeg
 link: https://www.linkedin.com/in/bpaskalev/
 ---
