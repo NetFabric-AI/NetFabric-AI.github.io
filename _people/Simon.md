@@ -1,7 +1,7 @@
 ---
 key: Simon
 name: Dr. Simon Scherrer
-role: Senior Network Engineer
+role: Lead Network Engineer
 image: assets/images/team/Simon-cropped.jpg
 link: https://www.linkedin.com/in/simon-scherrer-2385b5174/
 ---
