@@ -2,7 +2,7 @@
 key: Marlene
 name: Marlene Brakhane
 role: Co-Founder and COO
-image: assets/images/team/Marlene.jpeg
+image: assets/images/team/MarleneBrakhane.jpg
 link: https://www.linkedin.com/in/marlene-brakhane/
 ---
 
