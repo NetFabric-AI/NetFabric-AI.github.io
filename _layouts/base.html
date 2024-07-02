@@ -20,7 +20,7 @@
 
     <!-- Social media -->
     <meta property="og:title" content="NetFabric | {{ page.title }}" />
-    <meta property="og:description" content="{{ page.og_content | 'NetFabric is developing a next-gen network observability platform' }}" />
+    <meta property="og:description" content="{{ page.og_content | default: 'NetFabric is developing a next-gen network observability platform' }}" />
     <meta property="og:image" content="{{ site.url }}{{ page.og_image | default: '/assets/images/network-flat-og.jpg' }}" />
 </head>
 
