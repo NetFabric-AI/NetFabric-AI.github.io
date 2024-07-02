@@ -29,30 +29,7 @@ title: Product
     </div>
   </div>
 
-  <hr class="dots-separator">
 
-  <div class="row justify-content-center">
-    <div class="col-12 col-md-8 mx-auto">
-      <h2 class="title-sentence">
-        Unlock <strong>seamless network insights</strong> and <strong>step up</strong> your network game
-      </h2>
-    </div>
-  </div>
-
-  <p class="cards-group">
-  <div class="row row-cols-md-3 row-cols-1 g-4">
-    {% for item in site.data.product.benefits %}
-    <div class="col">
-      <div class="card h-100">
-        <div class="card-body text-center">
-          <h3 class="card-title">{{ item.title }}</h5>
-            <p class="card-text">{{ item.description | markdownify }}</p>
-        </div>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-  </p>
 
 
 
