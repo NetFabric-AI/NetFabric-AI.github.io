@@ -1,4 +1,4 @@
 ---
 title: Hands-on Lead Platform Architect
-link: leadarchitect
+link: /assets/files/Hands-on_Lead_Platform_Architect.pdf
 ---
