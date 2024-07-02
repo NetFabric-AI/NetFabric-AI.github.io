@@ -5,12 +5,15 @@ collections:
     output: true
   jobs:
     output: true
-  news:
-    output: true
+    permalink: /jobs/:name/
   use_cases:
     output: true
   quotes:
     output: true
+
+# Permalink structure for _posts
+permalink: /news/:name/
+
 baseurl: ""
 
 exclude:
