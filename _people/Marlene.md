@@ -6,4 +6,4 @@ image: assets/images/team/MarleneBrakhane.jpg
 link: https://www.linkedin.com/in/marlene-brakhane/
 ---
 
-Marlene led operations, business lines, and strategic initiatives in startups and corproations. She has more than 8 years experience in scaling, transforming, and exiting startups from Seed to Series F.
+Marlene has a proven track record in scaling, transforming, and exiting startups from Seed to Series F stages. Previously, she led operations, business lines, and strategic initiatives in both startups and corporations.
