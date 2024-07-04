@@ -19,6 +19,9 @@ title: Keep me updated!
 
             <input type="radio" class="btn-check" id="investor" autocomplete="off" value="investor" name="updateType">
             <label class="btn btn-outline-secondary" for="investor"><i class="fas fa-hand-holding-usd"></i> Investor</label>
+
+            <input type="radio" class="btn-check" id="general" autocomplete="off" value="general" name="updateType">
+            <label class="btn btn-outline-secondary" for="general"><i class="fas fa-cog"></i> General</label>
         </div>
     </div>
 
@@ -80,3 +83,22 @@ You can always contact us through one of the following email addresses:
         </tr>
     </tbody>
 </table>
+
+<script>
+    // Function to get query parameter by name
+    function getQueryParam(name) {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(name);
+    }
+
+    // Function to set the radio button based on the query parameter
+    function setRadioButton() {
+        const updateType = getQueryParam('updateType');
+        if (updateType) {
+            document.getElementById(updateType).checked = true;
+        }
+    }
+
+    // Call the function when the page loads
+    window.onload = setRadioButton;
+</script>
