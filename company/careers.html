@@ -24,7 +24,7 @@ title: Join NetFabric
     }
 </style>
 <p>Are you passionate about pushing the boundaries of technology? Do you thrive in a dynamic and innovative environment? At NetFabric, we're always on the lookout for talented individuals who share our vision of transforming network monitoring and management.</p>
-<p>
+<p class="mb-4">
     <h3>Open Positions</h3>
     <table class="table job-table">
         <tbody>
@@ -35,16 +35,25 @@ title: Join NetFabric
             {% endif %}
             {% for job in site.jobs %}
             <tr>
-                <td><a href="{{ job.url }}">{{ job.title }}</a></td>
-            </tr>
+                <td><a href="{{ job.url }}"><i class="fas fa-external-link-alt me-2"></i>{{ job.title }}</a></td>
+            </tr>          
             {% endfor %}
         </tbody>
     </table>
 </p>
-<br>
 <p>Can't find the perfect role for you? No problem! We're always excited to discover new talent. Send us an initiative application, and let's explore how you can become a part of our journey.</p>
-</p><br>
-<p>
+</p>
+<p class="mb-4">
+    <h3>How to apply</h3>
+    <p>
+        Reach out to us at <mail to="careers" addBody="true"></mail> – we can't wait to connect with you!
+
+        Please include your CV and/or LinkedIn profile in your application and briefly mention what intrigues you about NetFabric.
+
+        If you are considering applying at a later time, you can subscribe to updates <a href="{{ site.baseurl }}contact/?updateType=employee">here</a>.
+    </p>
+</p>
+<p class="mb-4">
     <h3>What we offer</h3>
 
     <div class="row row-cols-md-2 row-cols-1 g-4">
@@ -66,15 +75,4 @@ title: Join NetFabric
         </div>
         {% endfor %}
     </div>
-</p>
-<p>
-    <h3>How to apply</h3>
-    <br>
-    <p>
-        Reach out to us at <mail to="careers" addBody="true"></mail> – we can't wait to connect with you!
-
-        Please include your CV and/or LinkedIn profile in your application and briefly mention what intrigues you about NetFabric.
-
-        If you are considering applying at a later time, you can subscribe to updates <a href="{{ site.baseurl }}contact/?updateType=employee">here</a>.
-    </p>
 </p>
