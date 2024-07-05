@@ -5,9 +5,10 @@ title: Hands-on Lead Platform Architect
 
 Location: Zurich, Switzerland
 
+### Job Description
+
 NetFabric's platform lead architect oversees the entire lifecycle of the platform, from design and development to testing, deployment, and maintenance. Additionally, they integrate the deep tech innovations coming from ETH Zurich PhDs into the platform.
 
-### Details
 
 **We want you if you are looking to:**
 
@@ -54,18 +55,12 @@ NetFabric's platform lead architect oversees the entire lifecycle of the platfor
 - Observe and learn how network operators interact with our tool and suggest improvements
 - Coordinate the priorities and deliverables we work on with the rest of the team
 
-### Benefits
-
-- A fast-growing startup experience, flat hierarchy, great opportunity for professional growth
-- Compensation package with stock options, market salary, and accident insurance
-- Shape a platform that will revolutionize the monitoring possibilities for networks throughout the world
-
-### About us
+<!-- ### About us
 
 NetFabric is a startup building a platform for unlocking real-time reasoning & Artificial Intelligence for IT Operations (AIOps) across all aspects of data networks. Our technology pushes the frontiers of network understanding and reasoning across data sources.
 
-We are building up a strong team with great people including serial entrepreneurs, ETH PhD holders, and ETH professors.
+We are building up a strong team with great people including serial entrepreneurs, ETH PhD holders, and ETH professors. -->
 
-### Interested?
+{% include careers-benefits.md %}
 
-Reach out to <mail to="careers" addBody="true"></mail>.
+{% include careers-how-to-apply.md %}
