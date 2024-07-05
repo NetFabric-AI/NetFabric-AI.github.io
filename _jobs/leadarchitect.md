@@ -59,7 +59,6 @@ NetFabric's platform lead architect oversees the entire lifecycle of the platfor
 - A fast-growing startup experience, flat hierarchy, great opportunity for professional growth
 - Compensation package with stock options, market salary, and accident insurance
 - Shape a platform that will revolutionize the monitoring possibilities for networks throughout the world
-- The position requires you to communicate well in English
 
 ### About us
 
