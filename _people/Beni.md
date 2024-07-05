@@ -3,7 +3,7 @@ key: Beni
 name: Dr. Beni Bichsel
 role: Co-Founder and CEO
 image: assets/images/team/Beni-cropped.jpg
-link: https://www.linkedin.com/in/benjamin-bichsel-866432147/
+link: https://www.linkedin.com/in/bichselb
 ---
 
 Beni holds a PhD from ETH Zurich, where he worked to eliminate programming
