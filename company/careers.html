@@ -28,16 +28,20 @@ title: Join NetFabric
     <h3>Open Positions</h3>
     <table class="table job-table">
         <tbody>
-            {% if site.jobs.size == 0 %}
+            {% assign emptylist = true %}
+            {% for job in site.jobs %}
+                {% if job.show %}
+                    {% assign emptylist = false %}
+                    <tr>
+                        <td><a href="{{ job.url }}"><i class="fas fa-external-link-alt me-2"></i>{{ job.title }}</a></td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+            {% if emptylist %}
                 <tr>
                     <td>We are currently not announcing any open positions...</td>
                 </tr>
             {% endif %}
-            {% for job in site.jobs %}
-            <tr>
-                <td><a href="{{ job.url }}"><i class="fas fa-external-link-alt me-2"></i>{{ job.title }}</a></td>
-            </tr>          
-            {% endfor %}
         </tbody>
     </table>
 </p>

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Hands-on Lead Platform Architect
+show: true
 ---
 
 Location: Zurich, Switzerland
