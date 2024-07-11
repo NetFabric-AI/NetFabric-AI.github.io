@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Error when processing your submission
+title: Error!
 ---
 
-There was an error with your submission, please follow up through <mail to="info" addBody="true"></mail>.
+Unfortunately, we encountered an error when processing your submission. Please follow up through <mail to="info" addBody="true"></mail>.
