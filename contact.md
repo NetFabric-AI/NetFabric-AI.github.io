@@ -5,7 +5,7 @@ title: Keep me updated!
 
 <p>
 <form
-  action="https://formspree.io/f/mayrkanw"
+  action="https://formcarry.com/s/iy9helLGmjq"
   method="POST"
 >
     <div class="mb-3">
