@@ -49,8 +49,8 @@ and securely stores information on Google's servers. Data is retained for 14
 months and is used in an anonymized, aggregated form.
 
 We store your data collected from forms such as our contact form through
-[Formspree](https://formspree.io). Formspree securely stores the information you
-submit on their servers.
+[formcarry](https://formcarry.com/) and [Google Sheets](https://workspace.google.com/products/sheets/).
+These services securely store the information you submit on their servers.
 
 ## Marketing
 
