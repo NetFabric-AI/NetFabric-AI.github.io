@@ -13,8 +13,6 @@ NetFabric emerged from the labs of Prof. Martin Vechev and Prof. Laurent Vanbeve
 
 NetFabric is based on many years of research expertise at the intersection of the above areas. We are now building the next-generation network observability platform based on latest advances in generative AI and mathematical modeling. The platform will be the first to be able to provide real-time answers to any networking question.
 
-We are excited to be part of the ETH Zurich Founders Community. It's a vibrant hub where startups and researchers collaborate, exchanging ideas that will shape our pioneering platform's future.
+We are excited to be part of the ETH Zurich Founders Community. It's a vibrant hub where startups and researchers collaborate, exchanging ideas that will shape our pioneering platform's future. We're eager to contribute to this dynamic environment and drive significant technological advancements.
 
-Our heartfelt thanks go to the ETH Zurich Founders Community for their warm welcome and support. We're eager to contribute to this dynamic environment and drive significant technological advancements.
-
-[Stay tuned]({{ site.baseurl }}/contact) for more updates from NetFabric AG as we continue to revolutionize the world of network monitoring!
+[Stay tuned]({{ site.baseurl }}/contact) for more updates from NetFabric as we continue to revolutionize the world of network monitoring!
