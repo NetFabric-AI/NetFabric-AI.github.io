@@ -1,5 +1,9 @@
 <p class="mb-4">
-    <h3>What we offer</h3>
+    <!--<h3>What we offer</h3> -->
+  <h2 class="title-sentence">
+    <strong>Perks of joining us</strong> as an <br>
+    early team member at a deep tech startup
+  </h2>
 
     <div class="row row-cols-md-2 row-cols-1 g-4">
         {% for item in site.data.careers.benefits %}
