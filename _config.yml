@@ -16,6 +16,8 @@ permalink: /news/:name/
 
 baseurl: ""
 
+timezone: Europe/Zurich
+
 exclude:
   - node_modules
   - .git
