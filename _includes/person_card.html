@@ -3,14 +3,14 @@
 {% if person == nil %}
 <!-- Warning: Person not found -->
 {% else %}
-<div class="col-md-3 mb-3">
+<div class="col-lg-3 col-md-4 col-sm-6 mb-3">
     <div class="card h-100">
         <div>
-            <img src="{{ site.baseurl }}/{{ person.image | default: 'assets/images/team/default.svg' }}" class="card-img-top img-fluid grayscale-on-hover" alt="{{ person.name }}">
+            <a href="{{ person.link }}"><img src="{{ site.baseurl }}/{{ person.image | default: 'assets/images/team/default.svg' }}" class="card-img-top img-fluid grayscale-on-hover" alt="{{ person.name }}"></a>
         </div>
         <div class="card-body">
             <div class="d-flex justify-content-between align-items-center">
-                <h3 class="card-title">{{ person.name }}</h3>
+                <h3 class="card-title"><a href="{{ person.link }}" class="no-link-style">{{ person.name }}</a></h3>
                 <a href="{{ person.link }}" class="text-decoration-none" target="_blank">
                     <i class="fas fa-external-link-alt text-dark"></i>
                 </a>
@@ -18,7 +18,7 @@
             <p class="card-text">{{ person.role }}</p>
             {% assign content = person.content | strip_newlines %}
             {% if content != "" %}
-                <p class="card-text">{{ person.content | markdownify }}</p>
+                <p class="card-text"><a href="{{ person.link }}" class="no-link-style">{{ person.content | markdownify }}</a></p>
             {% endif %}
         </div>
     </div>

@@ -58,9 +58,16 @@ html {
 }
 
 .footer a {
-  color: white;
+  color: inherit;
   text-decoration: none;
 }
+
+.footer a:hover,
+.footer a:focus {
+  color: inherit; /* Ensure color does not change on hover or focus */
+  text-decoration: none; /* Ensure no underline on hover or focus */
+}
+
 
 /*************/
 /* ALIGNMENT */
@@ -255,4 +262,19 @@ h3 {
 
 .grayscale-on-hover:hover {
   filter: none;
+}
+
+/*********/
+/* LINKS */
+/*********/
+
+.no-link-style {
+  color: inherit; /* Inherit the color from the parent element */
+  text-decoration: none; /* Remove underline */
+}
+
+.no-link-style:hover,
+.no-link-style:focus {
+  color: inherit; /* Ensure color does not change on hover or focus */
+  text-decoration: none; /* Ensure no underline on hover or focus */
 }
