@@ -1,5 +1,5 @@
 ---
-title: Recognized for Outstanding PhD Dissertation
+title: Outstanding PhD Dissertation
 short: Our CEO Beni was recognized for an outstanding doctoral dissertations in the area of Programming Languages.
 date: 2024-07-01
 image: /assets/images/blog/Blog-Beni-award.jpg
