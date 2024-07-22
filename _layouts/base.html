@@ -30,6 +30,54 @@
     <meta name="twitter:description" content="{{ page.og_content | default: 'NetFabric is developing a next-gen network observability platform' }}" />
     <meta name="twitter:image" content="{{ site.url }}{{ page.og_image | default: '/assets/images/NetFabricLogo2.png' }}" />
     
+  <!-- Inline CSS -->
+  <style>
+    /* New Section Styles */
+    .image-text-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      text-align: center;
+    }
+
+    .image-text-wrapper img {
+      max-width: 100%; /* Thumbnail size */
+      height: auto; /* Maintain aspect ratio */
+      border-radius: 8px;
+    }
+
+    .image-text-wrapper p {
+      max-width: 100%;
+      line-height: 1.6;
+    }
+
+    .contact-action {
+      margin-top: 10px;
+    }
+
+    @media (min-width: 768px) {
+      .image-text-wrapper {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .image-text-wrapper img {
+        max-width: 100%; /* Thumbnail size */
+        margin-right: 20px; /* Space between image and text */
+      }
+      
+      .image-text-wrapper p {
+        max-width: 100%; /* Allow the text to use available space */
+      }
+
+      .contact-action {
+        margin-top: 0; /* Remove top margin */
+      }
+    }
+  </style>
+
 </head>
 
 <body class="d-flex flex-column min-vh-100">
