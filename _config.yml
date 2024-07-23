@@ -25,3 +25,4 @@ exclude:
   - /README.md
 
 google_analytics_tag_id: G-61H18LPX39
+google_tag_manager_container_id: GTM-WBM46568
