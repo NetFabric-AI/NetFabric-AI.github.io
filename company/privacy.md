@@ -44,7 +44,7 @@ NetFabric collects your data so that we can:
 
 ## How do we store your data?
 
-We store date on how you use our webpage using Google Analytics, which collects
+We store data on how you use our webpage using Google Analytics, which collects
 and securely stores information on Google's servers. Data is retained for 14
 months and is used in an anonymized, aggregated form.
 
