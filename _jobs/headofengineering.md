@@ -14,7 +14,7 @@ This role is for someone who thrives in a high-performance, fast-paced startup e
 
 
 ### What You’ll Do:
-- Be the engineering thought leader: Set the bar for engineering excellence and take charge of code quality, review processes, and best practices from day one. Establish and refine coding and testing guidelines to ensure robust, scalable, and secure software development that adheres to high-quality standards.
+- **Be the engineering thought leader:** Set the bar for engineering excellence and take charge of code quality, review processes, and best practices from day one. Establish and refine coding and testing guidelines to ensure robust, scalable, and secure software development that adheres to high-quality standards.
 - Mentor & guide: Provide mentorship to engineers across the team, driving their growth in technical skills and professional development.
 - Build & innovate hands-on: Write code, solve architectural challenges, and manage technical debt as you collaborate with the team to build our next-gen platform.
 - Own the technical architecture: Embrace a variety of exciting engineering challenges,  ensuring our platform reliably and securely manages massive data volumes and scales seamlessly. Collaborate with our team to dive into diverse problems, drive smart system design, and integrate newest research solutions that keep our tech on the cutting edge.
