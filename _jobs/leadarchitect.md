@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Hands-on Lead Platform Architect
-show: true
+show: false
 ---
 
 Location: Zurich, Switzerland (This role is not available remotely)

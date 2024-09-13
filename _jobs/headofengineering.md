@@ -8,7 +8,7 @@ Location: Zurich, Switzerland (This role is not available remotely)
 
 ### Job Description
 
-Join us at NetFabric, where we're transforming network monitoring from the ground up! As **Head of Engineering**, you will set the gold standard for engineering excellence, guiding the team and shaping the technical strategy to scale our platform. This role is a mix of hands-on technical work, driving best practices, and architectural oversight. You’ll be a thought leader, pushing boundaries and ensuring that everything we build meets the highest standards.
+Join us at NetFabric, where we're transforming network monitoring from the ground up! As **Head of Engineering**, you will set the gold standard for engineering excellence, guiding the team and shaping the technical strategy to scale our platform. This role is a mix of **hands-on technical work, driving best practices, and architectural oversight**. You’ll be a thought leader, pushing boundaries and ensuring that everything we build meets the highest standards.
 <br><br>
 This role is for someone who thrives in a high-performance, fast-paced startup environment, where the impact of your work is immediately visible. While computer network knowledge is a nice-to-have, your leadership in both driving engineering practices and architectural decisions to set the bar for technical excellence is what we value most. You'll mentor others and lead by example through hands-on contributions, ensuring we are at the forefront of revolutionizing network observability and taking every action to get our customers really excited about NetFabric.
 
@@ -16,7 +16,7 @@ This role is for someone who thrives in a high-performance, fast-paced startup e
 ### What You’ll Do:
 - **Be the engineering thought leader:** Set the bar for engineering excellence and take charge of code quality, review processes, and best practices from day one. Establish and refine coding and testing guidelines to ensure robust, scalable, and secure software development that adheres to high-quality standards.
 - **Mentor & guide:** Provide mentorship to engineers across the team, driving their growth in technical skills and professional development.
-- Build & innovate hands-on: Write code, solve architectural challenges, and manage technical debt as you collaborate with the team to build our next-gen platform.
+- **Build & innovate hands-on:** Write code, solve architectural challenges, and manage technical debt as you collaborate with the team to build our next-gen platform.
 - **Own the technical architecture:** Embrace a variety of exciting engineering challenges,  ensuring our platform reliably and securely manages massive data volumes and scales seamlessly. Collaborate with our team to dive into diverse problems, drive smart system design, and integrate newest research solutions that keep our tech on the cutting edge.
 - **Collaborate with the CTO:** Work closely with Tobias (our CTO) to translate high-level visions into actionable engineering roadmaps, ensuring we build a product that excites our customers.
 - **Co-lead sprint planning:** Co-lead sprint planning and fine-grain task distribution, ensuring we stay on track and hit key deadlines.
@@ -32,7 +32,7 @@ This role is for someone who thrives in a high-performance, fast-paced startup e
   - ClickHouse (or another scalable database for high-volume data insertion)
   - Kafka (or another distributed event streaming platform for real-time data pipelines)
   - Grafana (or another frontend solution for building user interfaces)
-- **Mentorship skills: Passion for guiding and mentoring engineers, helping them grow their technical prowess and professional development.
+- **Mentorship skills:** Passion for guiding and mentoring engineers, helping them grow their technical prowess and professional development.
 - **Collaborative spirit:** A collaborative and adaptable mindset where you will work closely with our CTO Tobias, CEO Beni, and other team members, ready to embrace a startup culture where your ideas can immediately impact the product.
 - **Network knowledge:** No strong background in computer networking is required, but a willingness to learn and grow in this area is a must and aligns with our mindset of continuous personal development.
 
