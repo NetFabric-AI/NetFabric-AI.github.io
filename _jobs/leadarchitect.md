@@ -4,7 +4,7 @@ title: Hands-on Lead Platform Architect
 show: true
 ---
 
-Location: Zurich, Switzerland (This role is not available remotely) 
+Location: Zurich, Switzerland (This role is not available remotely)
 
 ### Job Description
 
