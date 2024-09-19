@@ -4,7 +4,7 @@ title: Head of Engineering
 show: true
 ---
 
-Location: Zurich, Switzerland (This role is not available remotely)
+Location: Zurich, Switzerland (Hybrid role - not available fully remotely)
 
 ### Job Description
 

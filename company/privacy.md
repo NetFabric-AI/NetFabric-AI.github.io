@@ -133,8 +133,8 @@ Email us at: <mail to="info" addBody="true"></mail>.
 
 You may also contact our Data Protection Officer using the following contact details:
 
-- NetFabric AG, Data Protection Officer, c/o Boris Paskalev, Am Stadtrand 51a,
-  8600 Dübendorf, <mail to="info" addBody="true"></mail>.
+- NetFabric AG, Data Protection Officer, Limmatquai 120,
+  8001 Zürich, <mail to="info" addBody="true"></mail>.
 
 ## How to contact the appropriate authority
 
