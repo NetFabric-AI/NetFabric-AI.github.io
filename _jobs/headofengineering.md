@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Head of Engineering
-show: true
+show: false
 ---
 
 Location: Zurich, Switzerland (Hybrid role - not available fully remotely)

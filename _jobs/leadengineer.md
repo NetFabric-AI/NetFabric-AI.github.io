@@ -8,7 +8,8 @@ Location: Zurich, Switzerland (Hybrid setup – 3 days in the office, 2 days rem
 
 ### Job Description
 
-Join us at NetFabric, where we're transforming network monitoring from the ground up! As our **Lead Software Engineer / Head of Engineering** and full-time employee #7, you’ll be at the heart of our growth! You’ll balance hands-on coding with leadership, setting the pace for our team as you actively contribute to the codebase, mentor your colleagues, and shape our technical strategy to scale our platform. This role combines exciting technical work, thought leadership in driving engineering excellence and making key architectural decisions.
+Join us at NetFabric, where we're transforming network monitoring from the ground up! <br>
+As our **Lead Software Engineer / Head of Engineering** and employee #7, you’ll be at the heart of our growth! You’ll balance hands-on coding with leadership, setting the pace for our team as you actively contribute to the codebase, mentor your colleagues, and shape our technical strategy to scale our platform. This role combines exciting technical work, thought leadership in driving engineering excellence and making key architectural decisions.
 <br><br>
 We’re looking for someone who thrives in a dynamic, fast-paced environment where your impact is immediately visible. If you’re an exceptional coder and thought leader, and youre ready to step into a bigger role where you can truly make a difference at a rapidly growing startup, this is the perfect opportunity for you! While knowledge of computer networks is a nice-to-have, what truly excites us is your passion for driving engineering excellence, making sharp architectural decisions, and building products that customers love.
 
@@ -54,7 +55,7 @@ We’re looking for someone who thrives in a dynamic, fast-paced environment whe
 We’re on the lookout for talented individuals, not just checkboxes on a CV. If you’re an exceptional performer and this role feels like a fit, even if you don’t meet every single requirement, we’d love to hear from you.
 
 
-<br>
+
 {% include careers-how-to-apply.md %}
 <br>
 {% include careers-benefits.md %}
