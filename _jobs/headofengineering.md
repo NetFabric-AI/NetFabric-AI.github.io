@@ -6,10 +6,12 @@ show: false
 
 Location: Zurich, Switzerland (Hybrid role - not available fully remotely)
 
+*– The role could be a Lead Engineer or Head of Engineering, depending on the applicant's experience and the impact they bring to the team. –*
+
 ### Job Description
 
 Join us at NetFabric, where we're transforming network monitoring from the ground up! As **Head of Engineering**, you will set the gold standard for engineering excellence, guiding the team and shaping the technical strategy to scale our platform. This role is a mix of **hands-on technical work, driving best practices, and architectural oversight**. You’ll be a thought leader, pushing boundaries and ensuring that everything we build meets the highest standards.
-<br><br>
+
 This role is for someone who thrives in a high-performance, fast-paced startup environment, where the impact of your work is immediately visible. While computer network knowledge is a nice-to-have, your leadership in both driving engineering practices and architectural decisions to set the bar for technical excellence is what we value most. You'll mentor others and lead by example through hands-on contributions, ensuring we are at the forefront of revolutionizing network observability and taking every action to get our customers really excited about NetFabric.
 
 
