@@ -1,5 +1,7 @@
 # NetFabric Webpage
 
+This is the source of the webpage served at https://netfabric.ai via GitHub Pages. The repository is public because the webpage content is intended to be openly accessible.
+
 ## Serve locally
 
 After installing Jekyll:
