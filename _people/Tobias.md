@@ -2,7 +2,7 @@
 key: Tobias
 name: Dr. Tobias Bühler
 role: Co-Founder and CTO
-image: assets/images/team/Tobias-cropped.png
+image: assets/images/team/NetFabric_TobiasBühler.png
 link: https://www.linkedin.com/in/buehlert/
 ---
 

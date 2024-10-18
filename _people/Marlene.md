@@ -2,7 +2,7 @@
 key: Marlene
 name: Marlene Brakhane
 role: Co-Founder and COO
-image: assets/images/team/MarleneBrakhane.jpg
+image: assets/images/team/NetFabric_MarleneBrakhane.png
 link: https://www.linkedin.com/in/marlene-brakhane/
 ---
 

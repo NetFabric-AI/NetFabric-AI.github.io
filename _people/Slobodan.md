@@ -2,7 +2,7 @@
 key: Slobodan
 name: Slobodan Jenko
 role: Master's Student
-image: assets/images/team/SlobodanJenko.jpg
+image: assets/images/team/NetFabric_SlobodanJenko.png
 link: https://www.linkedin.com/in/slobodan-jenko-466370172/
 ---
 

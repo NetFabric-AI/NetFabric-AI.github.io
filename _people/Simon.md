@@ -2,7 +2,7 @@
 key: Simon
 name: Dr. Simon Scherrer
 role: Lead Network Engineer
-image: assets/images/team/Simon-cropped.jpg
+image: assets/images/team/NetFabric_SimonScherrer.png
 link: https://www.linkedin.com/in/simon-scherrer-2385b5174/
 ---
 
