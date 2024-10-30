@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lead Software Engineer / Head of Engineering
-show: true
+show: false
 ---
 
 Location: Zurich, Switzerland (Hybrid setup – 3 days in the office, 2 days remote)
