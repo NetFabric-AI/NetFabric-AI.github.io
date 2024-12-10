@@ -8,5 +8,7 @@
       url: company/about_us
     - title: Careers
       url: company/careers
+    - title: Student Theses
+      url: company/theses
     - title: Privacy Policy
       url: company/privacy
