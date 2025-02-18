@@ -1,9 +1,9 @@
 ---
 key: Slobodan
 name: Slobodan Jenko
-role: Master's Student
+role: Junior Machine Learning Engineer
 image: assets/images/team/NetFabric_SlobodanJenko.png
 link: https://www.linkedin.com/in/slobodan-jenko-466370172/
 ---
 
-Slobodan is a Master’s student at ETH Zurich, where he worked on research projects in Machine Learning. He has completed 4 internships across big tech and startups. 
+Slobodan holds a Master’s degree in Computer Science from ETH Zürich, specializing in machine intelligence. He has gained experience through four internships in both big tech and startups.
